@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Dados do usuário</legend>
+            <p>
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome">
+            </p>
+            <p>
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" required placeholder="nome@gmail.com">
+            </p>
+            <p>
+                <label for="tel">Telefone</label>
+                <input type="tel" name="tel" id="tel" required max="12" min="11" placeholder="(21)" pattern="^\d{10,11}$" >
+            </p>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+    
+</body>
+</html>
